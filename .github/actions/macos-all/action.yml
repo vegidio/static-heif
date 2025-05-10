@@ -9,7 +9,7 @@ runs:
     - name: Install dependencies
       shell: bash
       run: |
-        brew install nasm
+        brew install nasm jpeg-turbo
         mkdir -p $GITHUB_WORKSPACE/local_amd64/lib
         mkdir -p $GITHUB_WORKSPACE/local_arm64/lib
 
